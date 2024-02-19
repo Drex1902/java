@@ -1,41 +1,4 @@
-/*
- 
-Programa que permite realizar el recuento de votos en unas elecciones.
-El programa pide el número de candidatos y el número de votantes.
- 
-Luego pregunta a cada votante a que candidato vota.
-Al final muestra el total de votos para cada candidato.
-No es necesario almacenar todos los votos, solo irlos contando.
- 
-Utilizar un array de contadores. Cada vez que se introduce un voto se incrementa el
-contador correspondiente.
- 
-Validar cualquier posible error al votar.
- 
- 
-Salida del programa :
-------------------------------------
-Entra número de candidatos: 3
-Entra número de votantes: 4
- 
-Votante 1, entra tu voto (1-3): 1
-Votante 2, entra tu voto (1-3): 3
-Votante 3, entra tu voto (1-3): x
-Voto inválido.
-Votante 3, entra tu voto (1-3): 5
-Voto inválido.
-Votante 3, entra tu voto (1-3): 2
-Votante 4, entra tu voto (1-3): 1
- 
-Resultados:
------------------------
-Candidato 1: 2 votos.
-Candidato 2: 1 votos.
-Candidato 3: 1 votos.
- 
- 
-*/
- 
+
 import java.io.*;
 import java.util.Scanner;
  
